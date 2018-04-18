@@ -11,6 +11,7 @@ namespace Domain.WithBuilderPattern
             return Sandwich;
         }
 
+        //Concrete Builder -> Gets instance of the Concrete Product class.
         public void CreateNewSandwich()
         {
             Sandwich = new Sandwich();

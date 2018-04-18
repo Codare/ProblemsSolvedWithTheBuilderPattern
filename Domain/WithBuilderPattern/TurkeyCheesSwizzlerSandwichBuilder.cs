@@ -3,6 +3,10 @@ using Domain.Common;
 
 namespace Domain.WithBuilderPattern
 {
+    /// <summary>
+    /// Concrete builder -> One of many concrete builders.
+    /// </summary>
+    /// <seealso cref="Domain.WithBuilderPattern.SandwichBuilder" />
     public class TurkeyCheesSwizzlerSandwichBuilder : SandwichBuilder
     {
         //For example.  ICmsContentProvider.GetContent

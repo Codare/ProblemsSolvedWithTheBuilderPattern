@@ -2,6 +2,9 @@
 
 namespace Domain.WithBuilderPattern
 {
+    /// <summary>
+    /// Director part of the UML Diagram.
+    /// </summary>
     public class SandwichMaker
     {
         private readonly SandwichBuilder _builder;

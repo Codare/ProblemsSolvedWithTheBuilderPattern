@@ -4,6 +4,9 @@ using Domain.Common;
 
 namespace Domain.WithNoCtorPublicSetterParameters
 {
+    /// <summary>
+    /// Product in the Builder uml diagram.
+    /// </summary>
     public class Sandwich
     {
         public BreadType BreadType { get; set; }
